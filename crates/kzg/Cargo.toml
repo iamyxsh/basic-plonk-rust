@@ -1,0 +1,11 @@
+[package]
+name = "kzg"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ark-bls12-381.workspace = true
+ark-ec.workspace = true
+ark-ff.workspace = true
+ark-poly.workspace = true
+setup = { path = "../setup" }
