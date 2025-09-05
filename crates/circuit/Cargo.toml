@@ -1,0 +1,8 @@
+[package]
+name = "circuit"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ark-ff = { workspace = true }
+ark-bls12-381 = { workspace = true }
