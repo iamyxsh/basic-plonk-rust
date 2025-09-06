@@ -1,6 +1,13 @@
 use ark_bls12_381::Fr;
 
 #[derive(Clone, Debug)]
+pub struct WireValues {
+    pub a: Fr,
+    pub b: Fr,
+    pub c: Fr,
+}
+
+#[derive(Clone, Debug)]
 pub struct Witness {
     pub x: Fr,
 }

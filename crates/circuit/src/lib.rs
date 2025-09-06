@@ -1,2 +1,3 @@
 pub mod gate;
-pub mod wire;
+pub mod square_circuit;
+pub mod witness;
