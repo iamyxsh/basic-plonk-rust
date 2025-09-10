@@ -368,6 +368,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "proof"
+version = "0.1.0"
+dependencies = [
+ "ark-bls12-381",
+ "ark-ff",
+ "ark-poly",
+ "circuit",
+ "kzg",
+ "setup",
+]
+
+[[package]]
 name = "quote"
 version = "1.0.44"
 source = "registry+https://github.com/rust-lang/crates.io-index"
