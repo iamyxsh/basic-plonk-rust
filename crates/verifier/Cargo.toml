@@ -1,0 +1,12 @@
+[package]
+name = "verifier"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ark-ff = { workspace = true }
+ark-bls12-381 = { workspace = true }
+circuit = { path = "../circuit" }
+kzg = { path = "../kzg" }
+proof = { path = "../proof" }
+setup = { path = "../setup" }
